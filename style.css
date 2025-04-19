@@ -97,7 +97,7 @@ header h1 {
 
 header .subtitle {
     font-size: 1rem; /* Adjust size as needed */
-    font-weight: 300;
+    font-weight: 400;
     margin: 0; /* Remove default margin if needed */
 }
 
@@ -142,6 +142,7 @@ section:hover {
 /* --- About Me Section --- */
 .about-me p {
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 /* --- Post List --- */
@@ -188,6 +189,7 @@ section:hover {
 /* Short description for post preview */
 .post-description {
     font-size: 1rem;
+    text-align: justify;
     color: var(--text-color);
 }
 
