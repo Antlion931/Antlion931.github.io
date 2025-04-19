@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert K's Blog</title> <!-- CHANGE TITLE PER PAGE -->
+    <link rel="stylesheet" href="../style.css"> <!-- Adjust path for posts: href="../style.css" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon Links - ADD THESE LINES -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png"> <!-- Adjust path if needed -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png"> <!-- Adjust path if needed -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png"> <!-- Adjust path if needed -->
+    <link rel="shortcut icon" href="../images/favicon.ico"> <!-- Adjust path if needed -->
+    <!-- <link rel="manifest" href="/images/site.webmanifest"> --> <!-- Optional: if manifest was generated -->
+    <!-- End Favicon Links -->
+
+</head>
+<body>
+    <header>
+        <!-- Make container flex -->
+        <div class="container header-container">
+            <!-- Logo linked to homepage -->
+            <a href="../index.html" class="logo-link" aria-label="Homepage Logo"> <!-- Use / or index.html -->
+                <img src="../images/android-chrome-512x512.png" alt="Albert K Logo" class="header-logo"> <!-- Adjust path -->
+            </a>
+            <!-- Text content -->
+            <div class="header-text">
+                <!-- Make H1 linkable if desired, or keep it static -->
+                <h1><a href="../index.html" style="color: inherit; text-decoration: none;">Albert Kołodziejski's Blog</a></h1> <!-- Adjust path -->
+                <p class="subtitle">Thoughts on informatics, projects, and learning.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+         <article class="post-content">
+             <h1>My First Game Jam Experience</h1> <!-- POST TITLE -->
+             <p class="post-meta">Published on: <time datetime="2023-10-27">October 27, 2023</time></p> <!-- POST DATE -->
+
+             <!-- START YOUR POST CONTENT HERE -->
+             <p>
+                 This is where the main content of your blog post goes. You can use standard HTML tags like paragraphs, headings, lists, etc.
+             </p>
+
+             <h2>The Challenge</h2>
+             <p>
+                 The theme was announced, and we had 48 hours... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             </p>
+
+             <h3>Technology Choices</h3>
+             <p>
+                 I decided to use Rust with the Bevy game engine. Here's a small code snippet:
+             </p>
+             <pre><code class="language-rust">fn setup(mut commands: Commands) {
+    commands.spawn(Camera2dBundle::default());
+    // Add more setup logic here
+    println!("Game setup complete!");
+}</code></pre>
+
+             <ul>
+                 <li>Bullet point 1</li>
+                 <li>Bullet point 2</li>
+             </ul>
+
+             <p>
+                 More text explaining the process... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+
+              <blockquote>
+                 This is a blockquote. It can be used for highlighting inspiring quotes or important notes.
+             </blockquote>
+
+             <h2>Conclusion</h2>
+             <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+             </p>
+             <!-- END YOUR POST CONTENT HERE -->
+
+             <a href="../index.html" class="back-link">&larr; Back to Posts</a>
+
+         </article>
+    </main>
+
+    <footer>
+        <div class="container">
+             <p>&copy; 2023 Albert Kołodziejski</p>
+             <!-- You can include the GDPR text here too if you want it on every page -->
+        </div>
+    </footer>
+
+</body>
+</html>

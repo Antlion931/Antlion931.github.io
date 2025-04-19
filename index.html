@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert K's Blog</title> <!-- CHANGE TITLE PER PAGE -->
+    <link rel="stylesheet" href="./style.css"> <!-- Adjust path for posts: href="../style.css" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon Links - ADD THESE LINES -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png"> <!-- Adjust path if needed -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!-- Adjust path if needed -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png"> <!-- Adjust path if needed -->
+    <link rel="shortcut icon" href="./images/favicon.ico"> <!-- Adjust path if needed -->
+    <!-- <link rel="manifest" href="/images/site.webmanifest"> --> <!-- Optional: if manifest was generated -->
+    <!-- End Favicon Links -->
+</head>
+<body>
+    <header>
+        <!-- Make container flex -->
+        <div class="container header-container">
+            <!-- Logo linked to homepage -->
+            <a href="./index.html" class="logo-link" aria-label="Homepage Logo"> <!-- Use / or index.html -->
+                <img src="./images/android-chrome-512x512.png" alt="Albert K Logo" class="header-logo"> <!-- Adjust path -->
+            </a>
+            <!-- Text content -->
+            <div class="header-text">
+                <!-- Make H1 linkable if desired, or keep it static -->
+                <h1><a href="./index.html" style="color: inherit; text-decoration: none;">Albert Kołodziejski's Blog</a></h1> <!-- Adjust path -->
+                <p class="subtitle">Thoughts on informatics, projects, and learning.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about-me">
+            <h2>About Me & This Blog</h2>
+            <p>
+                Welcome to my personal blog! I'm Albert, an informatics student passionate about C++, Rust, algorithms, Linux, and cybersecurity. This space is where I document my projects (like those from game jams or university), share things I'm learning, and explore topics that interest me.
+            </p>
+            <p>
+                Feel free to reach out: <a href="mailto:AlbertK931@protonmail.com">AlbertK931@protonmail.com</a>
+            </p>
+        </section>
+
+        <section class="post-list">
+            <h2>Latest Posts</h2>
+
+            <article class="post-preview">
+                <h3><a href="./posts/first-post.html">My First Game Jam Experience</a></h3>
+                <p class="post-meta">Published on: <time datetime="2023-10-27">October 27, 2023</time></p>
+                <p class="post-description">
+                    A recap of my participation in my first game jam, the challenges faced, the tech used (Rust!), and the final result. Documenting the process.
+                </p>
+            </article>
+
+            <article class="post-preview">
+                <h3><a href="./posts/second-post.html">Setting Up a Linux Dev Environment</a></h3>
+                <p class="post-meta">Published on: <time datetime="2023-10-20">October 20, 2023</time></p>
+                <p class="post-description">
+                    Why I switched to Linux as my main OS three years ago and how I configure my development environment for maximum productivity using tools like Neovim, tmux, and various CLI utilities.
+                </p>
+            </article>
+
+             <!-- Add more <article class="post-preview"> blocks here as you write posts -->
+
+        </section>
+    </main>
+</body>
+</html>
